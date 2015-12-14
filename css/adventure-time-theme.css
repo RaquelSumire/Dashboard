@@ -922,8 +922,6 @@ label {
     border-color: #41cac0;
 }
 
-
-
 /*LOGIN CONFIGURATION PAGE*/
 .form-login {
     max-width: 330px;
@@ -969,8 +967,6 @@ label {
     font-size: 20px;
     color: white;
 }
-
-
 .sidebar-closed > #sidebar > ul {
     display: none;
 }
@@ -983,7 +979,6 @@ label {
     margin-left: -180px;
 }
 
-
 /***************************************************************/
 /********************* Dashboard code **************************/
 
@@ -992,7 +987,6 @@ label {
         padding-top: 0px;
     }
 }
-
 .ds {
     background: #ffffff;
     padding-top: 20px;
@@ -1013,9 +1007,8 @@ label {
     background: #9c4c9d;
     text-align: center;
 }
-
 .ds i {
-    font-size: 12px;
+    font-size: 20px;
     line-height: 16px;
 }
 
@@ -1025,18 +1018,15 @@ label {
     padding: 15px 0;
     width: 100%;
 }
-
 .ds .desc:hover {
     background: #f2f2f2;
 }
-
 .ds .thumb {
     width: 30px;
     margin: 0 10px 0 20px;
     display: block;
     float: left;
 }
-
 .ds .details {
     width: 170px;
     float: left;
@@ -1113,3 +1103,43 @@ label {
     background: #ffffff;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+/*MIS CSS*/
+#topbar{
+    background: #424a5d; 
+    height: 50px;
+    width: 100%;
+}
+.btn{
+    float: right; margin: 7px; 
+    background: #9c4c9d;
+    padding: 0px 15px 0px 15px; 
+    color: #fff; border: none;
+}
+.fa-bars{
+    margin:15px 0px 0px 10px;
+}
+.fa-bars span{
+    font-family: Arial; 
+    font-weight: bold;
+}
+#topbar a{
+    color:#FFFFFF; font-size: 16px;
+}
+
+#sidebar{
+    border-top: 1.5px solid black;
+}
+#sidebar img{
+    width: 70px; 
+    border-radius: 100px; 
+    margin:0px 0px 0px 55px;
+}
+#sidebar h5{
+    margin-left: 20px;
+}
+* .row{
+    margin: 0px;
+}
+
+
