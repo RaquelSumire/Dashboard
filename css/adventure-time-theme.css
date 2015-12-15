@@ -1,6 +1,4 @@
-*{
-    outline: 1px solid red;
-}
+
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
 
 body { 
@@ -597,6 +595,7 @@ PANELS CONFIGURATIONS
     background: url(../img/instagram.jpg) no-repeat center top;
     text-align: center;
     background-position: center center;
+    height: 
 }
 .instagram-panel i {
     color: white;
@@ -695,7 +694,7 @@ PANELS CONFIGURATIONS
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; 
 }
 #blog-bg .badge {
     position: absolute;
